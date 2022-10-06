@@ -9,6 +9,8 @@ public class _07_String_methods04 {
            örn: APPLE > apple  */
 
         //Kodu aşağıya yazınız.
+        String portkl="OraNge";
+        System.out.println(portkl.toLowerCase());
 
 
 

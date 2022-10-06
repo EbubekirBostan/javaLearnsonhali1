@@ -8,6 +8,8 @@ public class _10_String_methods07 {
             String'i küçük harfe çevirin ve yazdırın.  */
 
         //Kodu aşağıya yazınız.
+        String str="PADDLE";
+        System.out.println(str.toLowerCase());
 
 
     }

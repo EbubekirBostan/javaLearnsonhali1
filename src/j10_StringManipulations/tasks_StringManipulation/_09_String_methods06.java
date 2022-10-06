@@ -8,6 +8,8 @@ public class _09_String_methods06 {
             String'i küçük harfe çevirin ve yazdırın.  */
 
         //Kodu aşağıya yazınız.
+        String ilce="New York";
+        System.out.println(ilce.toLowerCase());
 
 
     }

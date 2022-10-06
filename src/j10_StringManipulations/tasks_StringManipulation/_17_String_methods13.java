@@ -9,6 +9,8 @@ public class _17_String_methods13 {
             // Thank you Stringini oluşturun.  */
 
         //Kodu aşağıya yazınız.
+        String kibar="Thank you";
+        System.out.println(kibar.indexOf('y'));
 
 
     }

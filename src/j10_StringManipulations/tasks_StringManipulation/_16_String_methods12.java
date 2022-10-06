@@ -8,8 +8,9 @@ public class _16_String_methods12 {
             Florida kelimesinin içindeki, sadece  'o'  harfinin bulunduğu indexini yazdırın.  */
 
         //Kodu aşağıya yazınız.
+        String sehir="Florida";
+        System.out.println(sehir.indexOf('o'));
 
-        ;
 
     }
 }

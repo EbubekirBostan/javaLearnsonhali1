@@ -13,6 +13,7 @@ public class Task01 {
         System.out.println("boslukVarMi = " + boslukVarMi); //boslukVarMi = true
 
 
+
     }
 }
 

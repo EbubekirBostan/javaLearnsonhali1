@@ -9,8 +9,6 @@ public class _06_String_methods03 {
           örn: apple > APPLE   */
 
         //Kodu aşağıya yazınız.
-        String pap="paper";
-        System.out.println(pap.toUpperCase());
 
     }
 }

@@ -8,8 +8,7 @@ public class _08_String_methods05 {
         String'i büyük harfe çevirin ve yazdırın  */
 
         //Kodu aşağıya yazınız.
-        String sehir="New Jersey";
-        System.out.println(sehir.toUpperCase());
+
 
 
     }

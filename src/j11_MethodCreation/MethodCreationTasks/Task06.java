@@ -3,14 +3,14 @@ package j11_MethodCreation.MethodCreationTasks;
 import java.util.Scanner;
 
 public class Task06 {
-	static Scanner scan=new Scanner(System.in);
+
 	public static void main(String[] args) {
 		/*
 		 Kullanıcıya paralelkenar, dikdörtgen ve üçgen kelimelerinden birini 
 		 ve iki sayı seçmesini söyleyin. 
          Hangi şekli seçerse, o şeklin alanını ve çevresini ekrana yazdıran programı yazınız.
 		 */
-
+		Scanner scan=new Scanner(System.in);
 		System.out.println("Bir Kenar Uzunluğu Seçiniz");
 		int kenarA=scan.nextInt();
 		System.out.println("Ikinci Bir Kenar Uzunluğu Seçiniz");
@@ -39,32 +39,37 @@ public class Task06 {
 				break;
 			default:
 				System.out.println("Yanlış karakter Girdiniz");
-				break;
 		}
 	}
 
 	private static int ucgcevre(int kenarA, int kenarB, int kenarC) {
-		return kenarA+kenarB+kenarC;
+		int ucgncevre=kenarA+kenarB+kenarC;
+		return ucgncevre;
 	}
 
 	private static int ucgalan(int kenarA, int yuk) {
-		return (kenarA*yuk)/2;
+		int ucgenAlan=(kenarA*yuk)/2;
+		return ucgenAlan;
 	}
 
 	private static int dikdortcevre(int kenarA, int kenarB) {
-		return (2*kenarA)+(2*kenarB);
+		int dikdortcev=(2*kenarA)+(2*kenarB);
+		return dikdortcev;
 	}
 
 	private static int dikdortgenal(int kenarA, int kenarB) {
-		return kenarA*kenarB;
+		int dAlan=kenarA*kenarB;
+		return dAlan;
 	}
 
 	private static int pcevre(int kenarA, int kenarB) {
-		return (2*kenarA)+(2*kenarB);
+		int pcevresi=(2*kenarA)+(2*kenarB);
+		return pcevresi;
 	}
 
 	private static int palan(int kenarA, int h) {
-		return (kenarA*h)/2;
+		int planhes=(kenarA*h)/2;
+		return planhes;
 	}
 
 }

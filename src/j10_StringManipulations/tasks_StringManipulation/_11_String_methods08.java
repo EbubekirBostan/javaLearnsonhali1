@@ -8,8 +8,8 @@ public class _11_String_methods08 {
             String'in içinde app olup olmadığını doğrula.   */
 
         //Kodu aşağıya yazınız.
-        String elma="apple";
-        System.out.println(elma.contains("app"));
+
+
 
 
     }

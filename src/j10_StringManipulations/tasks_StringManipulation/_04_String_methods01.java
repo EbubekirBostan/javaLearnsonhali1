@@ -8,8 +8,8 @@ public class _04_String_methods01 {
             Bu cümlenin toplam karakter sayısını yazdırın.   */
 
         //Kodu aşağıya yazınız.
-        String java="I love java";
-        System.out.println(java.length());
+
+
 
 
     }

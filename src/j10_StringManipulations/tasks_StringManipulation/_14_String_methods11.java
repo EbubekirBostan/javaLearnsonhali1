@@ -9,8 +9,6 @@ public class _14_String_methods11 {
             Büyük harf veya küçük harf önemli değildir.    */
 
         //Kodu aşağıya yazınız.
-        String elm="apple";
-        System.out.println(elm.equals("apple"));
 
 
     }

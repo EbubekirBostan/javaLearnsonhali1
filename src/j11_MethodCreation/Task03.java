@@ -7,11 +7,11 @@ public class Task03 {
         //Task>> Girilen iki sayıyı seçilen dört işleme göre hesaplayan method create ediniz
 
         Scanner scanner=new Scanner(System.in);
-        System.out.print(" Sayi Giriniz : ");
+        System.out.print("Sayi Giriniz : ");
         double a=scanner.nextDouble();
         System.out.println("İşlem Giriniz(+,-,*,/)");
         char islem=scanner.next().charAt(0);
-        System.out.print(" Sayi Giriniz : ");
+        System.out.print("Baska Sayi Giriniz : ");
         double b=scanner.nextDouble();
         hesapla(a,b,islem);
 

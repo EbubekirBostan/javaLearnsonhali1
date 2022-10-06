@@ -9,8 +9,8 @@ public class _19_String_methods15 {
             Mouse String'inin 2. sırasındaki karakteri yazdırın.  */
 
         //Kodu buraya yazınız.
-        String fare="Mouse";
-        System.out.println(fare.substring(1,2));
+
+
 
 
     }
